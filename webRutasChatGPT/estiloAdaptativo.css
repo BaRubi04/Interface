@@ -1,0 +1,236 @@
+/* Cajas principales */
+html{
+    width: 1200px;
+}
+body{
+    width: 96.6666666667%; /* 1160px y su contenedor 1200px */
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+header{
+    width: 96.5517241379%; /* 1120px y su contenedor 1160px */
+    height: 5rem; /* 80px y la letra base del navegador 16px */
+    padding: 1.25rem; /* 20px y la letra base del navegador 16px */
+    background-color: #205A82;
+    color:white;
+}
+nav{
+    width: 96.5517241379%; /* 1120px y su contenedor 1160px */
+    height: 2.5rem; /* 40px y la letra base del navegador 16px */
+    padding: 0.625rem 1.72413793103%; /* 10px de 16(rem), 20px y su contenedor 1160px */
+    background-color: #5AAFE0;
+}
+#principal{
+    width: 96.5517241379%; /* 1160px y su contenedor 1160px*/
+    height: 19.375rem; /* 310px y la letra base del navegador 16px*/
+    padding: 1.25rem; /* 20px y la letra base del navegador 16px */
+    background-color: #E6F2FA;
+}
+#inferior{
+    width: 98.275862069%; /* 1140px y su contenedor 1160px */
+    height: 46.6875rem; /* 747 y la letra base del navegador 16px */
+    padding: 0.9375rem 0 0.9375rem 1.72413793103%; /* 15px de 16px, 0, 15px de 16px, 20px y su contenedor 1160px */
+    background-color: #F0FBF7;
+}
+footer{
+    width: 96.5517241379%; /* 1120px y su contenedor 1160px*/
+    height: 5rem; /* 80px y la letra base del navegador 16px */
+    padding: 1.25rem; /* 20px y la letra base del navegador 16px */
+    background-color: #205A82;
+    text-align: center;
+}
+
+/* Elementos header */
+#cajaHeaderIzquierda{
+    width: 26.7857142857%; /* 300px y su contenedor 1120px */
+    height: 5rem; /* 80px y la letra base del navegador 16px */ 
+    float:left;
+}
+#cajaHeaderDerecha{
+    width: 15.1785714286%; /* 170px y su contenedor 1120px */
+    height: 5rem; /* 80px y la letra base del navegador 16px */
+    padding: 0;
+    float:right;
+}
+/* Elementos del nav */
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    width: 10.7142857143%; /* 120px y su contenedor 1120px*/
+    height: 1.875rem; /* 30px y la letra base del navegador 16px */
+    padding: 0.625rem 0 0 0; /* 10px y la letra base del navegador 16px */
+    text-align: center;
+    margin: 0 0 0 8.92857142857%; /* 100px y su contenedor 1120px */
+    display:inline-block;
+}
+nav ul li a{
+    width: 10.7142857143%;  /* 120px y su contenedor 120px */
+    display:block;
+    height: 1.875rem; /* 30px y la letra base del navegador 16px */
+}
+
+/* Section principal */
+#imagenPrincpal{
+    width: 560px; /* 560px y su contenedor 1120px */
+    height: 19.375rem; /* 310px y la letra base del navegador 16px */
+    padding: 0;
+    float:left;
+}
+#bloqueTexto{
+    width: 498px; /* 498px y su contenedor 1120px */
+    height: 18.625rem; /* 298px y la letra base del navegador 16px */
+    padding: 0.3125rem 1.78571428571%; /* 5px de 16px(rem), 20px y su contenedor 1120px */
+    border: 1px solid #5AAFE0;
+    border-radius:10px;
+    background-color: #E5F2FC;
+    float:right;
+}
+
+/* Section inferior */
+#cajitaForm{
+    width: 37.5438596491%; /* 428px y su contenedor 1140px */
+    padding: 0 1.25rem; /* 20px y su contenedor 1140px */
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    background-color: #E8F4E9;
+    float:left;
+}
+#bloqueSecundario{
+    width: 38.5964912281%; /* 440px y su contenedor 1140px */
+    height: 44.8125rem; /* 717px y la letra base del navegador 16px */
+    padding: 0.9375rem; /* 15px y la letra base del navegador 16px */
+    background-color: transparent;
+    float:right;
+}
+
+/* Elementos del formulario */
+label[for="fecha"]{
+    display:inline-block;
+    width: 51.4018691589%; /* 220px y su contenedor 428px */
+}
+label[for="numPersonas"]{
+    display:inline-block;
+    width: 28.0373831776%; /* 120px y su contenedor 428px */
+    margin: 0 0 0 50px; /* 50px y su contenedor 428px */
+}
+select[name="actividad"]{
+    width: 93.4579439252%; /* 400px y su contenedor 428px */
+    height: 3.625rem; /* 58px y la letra base del navegador 16px */
+    padding: 0 2.33644859813%; /* 10px y su contenedor 428px */
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 1.875rem 0; /* 30px y la letra base del navegador 16px */
+    background-color: #FFFFFF;
+}
+input[name="fecha"]{
+    width: 46.261682243%; /* 198 y su contenedor 428px */
+    height: 3.625rem; /* 58px y la letra base del navegador 16px */
+    padding: 0 2.33644859813%; /* 10px y su contenedor 428px */
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 50px 1em 0; /* 50px y su contenedor 428px, 16px de 16px(rem) */
+    background-color: #FFFFFF;
+}
+input[name="numPersonas"]{
+    width: 28.0373831776%; /* 120px y su contenedor 428px */
+    height: 3.625rem; /* 58px y la letra base del navegador 16px */
+    padding: 0 2.33644859813%; /* 10px  y su contenedor 428px */
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 1em 0; /* 16px y la letra base del navegador 16px */
+    background-color: #FFFFFF;
+}
+textArea[name="comentarios"]{
+    width: 93.4579439252%; /* 400px y su contenedor 428px */
+    height: 3.625rem; /* 58px y la letra base del navegador 16px */
+    padding: 0 2.33644859813%; /* 10px y su contenedor 428px */
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 1em 0; /* 16px y la letra base del navegador 16px */
+    background-color: #FFFFFF;
+}
+input[type="submit"][value="Reservar"]{
+    width: 98.1308411215%; /* 420px y su contenedor 428px */
+    height: 3.625rem; /* 58px y la letra base del navegador 16px */
+    border: 1px;
+    border-radius: 10px;
+    margin: 0 0 1em 0; /* 16px y la letra base del navegador 16px */
+    background-color:#2D9B48;
+    color:white;
+    font-weight: bold;
+}
+input[type="submit"][value="Reservar"]:hover{
+    font-size:1rem; /* 16px y la letra base del navegador 16px */
+    transition:0.5s;
+    cursor:grab;
+}
+
+/* Imagen secundaria y lista */
+#cajaImagenSecundaria{
+    width: 100%; /* 440px y su contenedor 440px */
+    height: 25.6875rem; /* 411px y la letra base del navegador 16px */
+}
+#cajaListaVentajas{
+    width: 95.4545454545%; /* 420px y su contenedor 440px */
+    height: 19.4375rem; /* 311px y la letra base del navegador 16px */
+    padding: 0 5.68181818182%; /* 25px y su contenedor 440px */
+    background-color: #E8F4E9;
+    border-radius: 10px;;
+}
+
+/* Elementos tipográficos */
+h1{
+    font-size: 2rem; /* 32px y la letra base del navegador 16px */
+    font-style:bold;
+}
+h2{
+    font-size: 0.625rem; /* 10px y la letra base del navegador 16px */
+    font-style:bold;
+}
+p{
+    font-size: 1rem; /* 16px y la letra base del navegador 16px */
+    font-style: bold;
+}
+header div h1, header div p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#principal p{
+    font-size: 1.125rem; /* 18px y la letra base del navegador 16px */
+}
+label,form p,footer p,header p{
+    font-size: 0.875rem; /* 14px y la letra base del navegador 16px */
+}
+#cajaListaVentajas li{
+    font-size: 1rem; /* 16px y la letra base del navegador 16px */
+}
+nav ul li a{
+    background-color: transparent;
+    text-decoration:none;
+    color:white;
+}
+nav ul li a:hover{
+    background-color: #07579B;
+    transition: 0.5s;
+    cursor:grab;
+}
+nav ul li a:active, nav ul li a:focus{
+    background-color: #074072;
+    transition: 0.5s;
+    cursor:grab;
+}
+#cabeceraForm{
+    background-color: #DCECF9;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.elementoListaOscuro{
+    background-color: #d1eed4;
+}

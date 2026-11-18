@@ -1,0 +1,29 @@
+html{
+    background-color: honeydew;
+}
+body{
+    margin: auto;
+    width: 800px;
+    background-color: blueviolet;
+}
+header, footer{
+    height:50px;
+}
+main{
+    display:flow-root;
+}
+main > div{
+    float:left;
+}
+.izd{
+    background-color: brown;
+    height: 300px;
+    width: 296px;
+    border: 2px solid black;
+}
+.dch{
+    background-color: forestgreen;
+    height: 300px;
+    width: 496px;
+    border: 2px solid black;
+}

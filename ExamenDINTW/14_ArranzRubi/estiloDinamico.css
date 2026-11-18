@@ -1,0 +1,164 @@
+/* Rubí Arranz Villalón */
+/* ------ General ------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 1260px;
+}
+body{
+    margin: 0 auto;
+}
+
+/* ------ Nivel 1 ------ */
+/* Cabecera */
+header{
+    box-sizing: border-box;
+    background-color: #444444;
+    width: 71.11111111111111%; /* 896px y su contenedor 1260px */
+    height: 102px;
+    padding-left: 3.968253968253968%; /* 50px y su contenedor 1260px */
+}
+/* Contenedor */
+main{
+    background-color: #D6D0C5;
+}
+/* Pie */
+footer{
+    background-color: #444444;
+    padding: 1rem 0;
+    align-content: center;
+    width: 71.11111111111111%; /* 896px y su contenedor 1260px */
+}
+/* ------ Nivel 2 ------ */
+/* -- Elementos del contenedor -- */
+/* Caja izquierda (con las noticias) */
+#sectionIzquierdo{
+    width: 25.%; /* 224px y su contenedor 896px */
+    padding: 3em 3.348214285714286% 0 1.19047619047619%; /* 3em, 30px ,0,15px */
+    font-family: Verdana;
+    position: relative;
+    float:left;
+}
+/* Caja derecha (con las noticias) */
+#sectionDerecho{
+    width: 67.96875%; /* 609px y su contenedor 896px */
+    background-color: #EAE6DE;
+    padding: 1.5em 9px;
+    float:left;
+}
+/* ------ Nivel 3 ------ */
+/* -- Elementos de la cabecera -- */
+/* Texto */
+#divTituloHeader{
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #e9b949;
+}
+header h2{
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+/* Imagen */
+#divImagenHeader{
+    float:right;
+    margin-right: 50px;
+    height: 30px;
+    width: 85px;
+}
+img{width: 100%;}
+/* -- Elementos de la caja izquierda -- */
+/* Enlaces */
+#sectionIzquierdo p a{
+    font-size: 1.3em;
+    font-style: italic;
+    color: #A83D32;
+}
+#sectionIzquierdo p{
+    margin-bottom: 2em;
+}
+/* Caja del formulario */
+#sectionIzquierdo form{
+    position:absolute;
+    width: 89.28571428571429%; /* 200px y su contenedor 224 */
+    height: 13em;
+    top: 350px;
+    padding: 0.7em 0 0 20px;
+    font-size: 0.8em;
+    background-color: #444444; 
+    border-radius: 5px;
+}
+/* -- Elementos del formulario -- */
+form label{
+    color: #D9AD55;
+    font-weight: bold;
+}
+input[name="correo"],input[name="contraseña"]{
+    margin-bottom: 0.6rem;
+}
+select[name="idioma"]{
+    margin-bottom: 0.8rem;
+}
+input[name="correo"],input[name="contraseña"],select[name="idioma"],input[type="submit"][value="Acceder"]{
+    padding-left: 5%;/* 10px y su contenedor 200px */
+    width: 84.6%; /* 169.2px y su contenedor 200px */
+}
+input[type="submit"][value="Acceder"]{
+    background-color: #D9AD55;
+}
+/* -- Elementos de la caja derecha (con las noticias) -- */
+#sectionDerecho div h1{
+    font-size: 1.6em;
+    color: #A83D32;
+}
+#sectionDerecho div h2{
+    font-size: 1.1em;
+    margin-bottom: 1rem;
+}
+#divImagenSectionDerecho{
+    width: 32.84072249589491%; /* 200px y su contenedor 609px */
+    height: 100%;
+    margin-right: 2.463054187192118%; /* 15px y su contenedor 609px */
+    display:inline-block;
+}
+#sectionDerecho div p, #sectionDerecho p{
+    justify-content: center;
+    padding-top: 1.2em;
+    float:left;
+}
+/* -- Elementos del pie -- */
+footer{
+    clear:both;
+}
+footer ul{
+    align-items: center;
+}
+footer ul li{
+    margin-right: 11.16071428571429%; /* 100px y su contenedor 896px */
+    display:inline-block;
+}
+footer ul li a{
+    color: #FF9;
+}
+@media(max-width:600px){/* el rango no me sale*/
+    #sectionIzquierdo form{
+        top: 10px;
+    }
+    html{
+        font-size: 20px;
+    }
+}
+@media(min-width:1000px){
+    #sectionIzquierdo form{
+        top: 10px;
+    }
+}

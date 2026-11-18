@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+    width: 100%;
+    margin: 0;
+    font-size: 10vh;
+}
+div{
+    width: 70%;
+    background-color:green;
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+}
+img{
+    width:100%;
+}
+@media(min-width: 500px) and (max-width: 900px){
+    body{
+        background-color: deeppink;
+    }
+    img{
+        content: url('../posicionamiento/imagenes/gato.jpeg');
+    }
+}
+@media (hover: hover) {/* En móviles, pone la letra más grande porque no pueden hacer hover */
+    p{
+        font-size: 2rem;
+    }
+}
+@media screen and (orientation: portrait){
+    /* Si es una pantalla y el ancho es menor que el alto(portrait), poner texto rojo 
+        Para comprobarlo en móvil, tan solo emular el móvil en herramientas del desarrollador
+        del navegador y poner que el ancho sea igual o menor al alto (considera que tienes el móvil
+        hacia arriba)
+        En ordenador, hay que poner la orientación a vertical y asegurarse que el largo del html
+        de la página es superior al "ancho" de la pantalla (que de normal sería el alto)
+    */
+    p{
+        color:red;
+    }
+}

@@ -1,0 +1,236 @@
+/* Cajas principales */
+html{
+    width: 1200px;
+}
+body{
+    width: 1160px; /* 1160 */
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+header{
+    width: 1120px; /* 1160 - 20x2 */
+    height: 80px; /* 120 - 20x2 */
+    padding: 20px;
+    background-color: #205A82;
+    color:white;
+}
+nav{
+    width: 1120px; /* 1160 - 20x2 */
+    height: 40px; /* 60 - 10x2 */
+    padding: 10px 20px;
+    background-color: #5AAFE0;
+}
+#principal{
+    width: 1120px; /* 1160 - 20x2*/
+    height: 310px; /* 350 - 20x2 */
+    padding: 20px;
+    background-color: #E6F2FA;
+}
+#inferior{
+    width: 1140px; /* 1160 - 20 */
+    height: 747px; /* 777 - 15x2 */
+    padding: 15px 0 15px 20px;
+    background-color: #F0FBF7;
+}
+footer{
+    width: 1120px; /* 1160 - 20x2*/
+    height: 80px; /* 120 - 20x2 */
+    padding: 20px;
+    background-color: #205A82;
+    text-align: center;
+}
+
+/* Elementos header */
+#cajaHeaderIzquierda{
+    width: 300px;
+    height: 80px;
+    float:left;
+}
+#cajaHeaderDerecha{
+    width: 170px;
+    height: 80px;
+    padding: 0;
+    float:right;
+}
+/* Elementos del nav */
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    width: 120px;
+    height: 30px; /* 40 - 10 */
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin: 0 0 0 100px;
+    display:inline-block;
+}
+nav ul li a{
+    width: 120px; 
+    display:block;
+    height: 30px;
+}
+
+/* Section principal */
+#imagenPrincpal{
+    width: 560px;
+    height: 310px;
+    padding: 0;
+    float:left;
+}
+#bloqueTexto{
+    width: 498px; /* 540 - 20x2 - 1x2 */
+    height: 298px; /* 310 - 5x2 - 1x2 */
+    padding: 5px 20px;
+    border: 1px solid #5AAFE0;
+    border-radius:10px;
+    background-color: #E5F2FC;
+    float:right;
+}
+
+/* Section inferior */
+#cajitaForm{
+    width: 428px; /* 470 - 20x2 - 1x2 */
+    padding: 0 20px;
+    border: 1px solid #DCECF9;
+    border-radius: 10px;;
+    background-color: #E8F4E9;
+    float:left;
+}
+#bloqueSecundario{
+    width: 440px; /* 470 - 15x2 */
+    height: 717px; /* 747 - 15x2 */
+    padding: 15px;
+    background-color: transparent;
+    float:right;
+}
+
+/* Elementos del formulario */
+label[for="fecha"]{
+    display:inline-block;
+    width: 220px;
+}
+label[for="numPersonas"]{
+    display:inline-block;
+    width: 120px;
+    margin: 0 0 0 50px;
+}
+select[name="actividad"]{
+    width: 400px; /* 422 - 10x2 - 1x2 */
+    height: 58px; /* 60 - 1x2 */
+    padding: 0 10px;
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    background-color: #FFFFFF;
+}
+input[name="fecha"]{
+    width: 198px; /* 220 - 10x2 - 1x2 */
+    height: 58px; /* 60 - 1x2 */
+    padding: 0 10px;
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 50px 16px 0;
+    background-color: #FFFFFF;
+}
+input[name="numPersonas"]{
+    width: 120px; /* 142 - 10x2 - 1x2 */
+    height: 58px; /* 60 - 1x2 */
+    padding: 0 10px;
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 16px 0;
+    background-color: #FFFFFF;
+}
+textArea[name="comentarios"]{
+    width: 400px; /* 422 - 10x2 - 1x2 */
+    height: 58px; /* 60 - 1x2 */
+    padding: 0 10px;
+    border: 1px solid #DCECF9;
+    border-radius: 10px;
+    margin: 0 0 16px 0;
+    background-color: #FFFFFF;
+}
+input[type="submit"][value="Reservar"]{
+    width: 420px; /* 422 - 1x2 */
+    height: 58px; /* 60 - 1x2 */
+    border: 1px;
+    border-radius: 10px;
+    margin: 0 0 16px 0;
+    background-color:#2D9B48;
+    color:white;
+    font-weight: bold;
+}
+input[type="submit"][value="Reservar"]:hover{
+    font-size:16px;
+    transition:0.5s;
+    cursor:grab;
+}
+
+/* Imagen secundaria y lista */
+#cajaImagenSecundaria{
+    width: 440px;
+    height: 411px;
+}
+#cajaListaVentajas{
+    width: 420px; /* 470 - 25x2 */
+    height: 311px;
+    padding: 0 25px;
+    background-color: #E8F4E9;
+    border-radius: 10px;;
+}
+
+/* Elementos tipográficos */
+h1{
+    font-size: 32px;
+    font-style:bold;
+}
+h2{
+    font-size: 20px;
+    font-style:bold;
+}
+p{
+    font-size: 16px;
+    font-style: bold;
+}
+header div h1, header div p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#principal p{
+    font-size: 18px;
+}
+label,form p,footer p,header p{
+    font-size: 14px;
+}
+#cajaListaVentajas li{
+    font-size: 16px;
+}
+nav ul li a{
+    background-color: transparent;
+    text-decoration:none;
+    color:white;
+}
+nav ul li a:hover{
+    background-color: #07579B;
+    transition: 0.5s;
+    cursor:grab;
+}
+nav ul li a:active, nav ul li a:focus{
+    background-color: #074072;
+    transition: 0.5s;
+    cursor:grab;
+}
+#cabeceraForm{
+    background-color: #DCECF9;
+    border-radius: 10px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+.elementoListaOscuro{
+    background-color: #d1eed4;
+}

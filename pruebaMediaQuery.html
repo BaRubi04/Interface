@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Media query</title>
+    <style>
+        p {/* letra normal */
+            font-size: 32px;
+        }
+
+        /* Si la ventana mide 600px o menos */
+        @media (max-width: 600px) {
+            p {
+                font-size: 16px;
+            }
+        }
+        /* Si la ventana mide 600px o mas */
+        @media (min-width: 600px){
+            h3{
+                color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Este párrafo se hace más pequeño cuando la ventana se estrecha.</p>
+    <h3>cambio color</h3>
+</body>
+</html>
